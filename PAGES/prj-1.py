@@ -132,7 +132,7 @@ html_content = f"""
 
     <h1 align="center" style="color: darkblue;">Student Performance Report</h1>
 
-    <h2 style="color: darkgreen;">Marks Table</h2>
+    <center><h2 style="color: darkgreen;">Marks Table</h2></center>
     <table border="1" cellpadding="5" cellspacing="0" width="70%" align="center" bgcolor="lightcyan">
         <tr bgcolor="red">
             <th>Student</th>
@@ -160,7 +160,7 @@ html_content = f"""
         </tr>
     </table>
 
-    <h2 style="color: darkgreen;">Overall Analysis</h2>
+    <center><h2 style="color: darkgreen;">Overall Analysis</h2></center>
     <ul>
         <li><b>Top Performer:</b> {top_std} ({top_avg:.2f})</li>
         <li><b>Weak Performer:</b> {low_std} ({low_avg:.2f})</li>
@@ -168,7 +168,7 @@ html_content = f"""
         <li><b>Weakest Subject:</b> {low_subject} ({min(subject_avgs):.2f})</li>
     </ul>
 
-    <h2 style="color: darkgreen;">Graphs</h2>
+    <center><h2 style="color: darkgreen;">Graphs</h2></center>
     <div align="center">
         <img src="subject_avg.png" width="400"><br><br>
         <img src="student_avg.png" width="400">
